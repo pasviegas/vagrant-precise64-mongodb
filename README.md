@@ -47,7 +47,7 @@ How to Hack?
 Maintainer
 ----------
 
-* Ramon Bispo (http://ramonpage.com)
+* Ramon Bispo a.k.a. RamonPage (http://ramonpage.com)
 
 License
 -------

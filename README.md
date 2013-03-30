@@ -44,6 +44,24 @@ How to Hack?
 
         vagrant package --vagrantfile Vagrantfile.pkg
 
+How to Contribute?
+-----------
+
+1. Fork this repo
+2. Clone your fork repo
+3. Bundle it
+
+        cd vagrant-precise64-mongodb
+        bundle
+
+4. Make changes
+5. Open a pull request
+
+TO-DO
+-----------
+
+* Change mongodb package from `mondodb` to `mongodb-10gen`.
+
 Maintainer
 ----------
 

@@ -48,7 +48,7 @@ How to Contribute?
 -----------
 
 1. Fork this repo
-2. Clone your fork repo
+2. Clone your forked repo
 3. Bundle it
 
         cd vagrant-precise64-mongodb

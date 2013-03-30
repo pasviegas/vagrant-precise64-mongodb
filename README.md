@@ -60,7 +60,7 @@ How to Contribute?
 TO-DO
 -----------
 
-* Change mongodb package from `mondodb` to `mongodb-10gen`.
+* Change mongodb package from `mondodb` to `mongodb-10gen` (puppet recipe).
 
 Maintainer
 ----------

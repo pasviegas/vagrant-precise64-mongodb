@@ -12,7 +12,7 @@ You can use this as a database server for any project.
 2. Install [VirtualBox](http://www.virtualbox.org/)
 3. Install this box on vagrant
 
-        vagrant box add precise64-mongodb https://dl.dropbox.com/s/mpqr1dvzxlva673/precise64-mongodb.box
+        vagrant box add precise64-mongodb [BOX_URL]
 
 4. Init it on your project directory
 
@@ -56,11 +56,6 @@ How to Contribute?
 
 4. Make changes
 5. Open a pull request
-
-TO-DO
------------
-
-* Change mongodb package from `mondodb` to `mongodb-10gen` (puppet recipe).
 
 Maintainer
 ----------

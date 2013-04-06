@@ -1,7 +1,7 @@
 vagrant-precise64-mongodb
 ============================
 
-Vagrant files for a mongodb server based on Ubuntu Precise 64.
+Vagrant files for a mongodb server version 2.4.1 based on Ubuntu Precise 64.
 
 How to Use?
 -----------
@@ -12,7 +12,7 @@ You can use this as a database server for any project.
 2. Install [VirtualBox](http://www.virtualbox.org/)
 3. Install this box on vagrant
 
-        vagrant box add precise64-mongodb [BOX_URL]
+        vagrant box add precise64-mongodb https://dl.dropbox.com/s/mpqr1dvzxlva673/precise64-mongodb.box
 
 4. Init it on your project directory
 

@@ -27,12 +27,12 @@ end
 
 desc "Starts the mongo vm"
 task :up => :environment do
-    queue 'vagrant up'
+    queue 'bundle exec vagrant up'
 end
 
 desc "Stops the mongo vm"
 task :down => :environment do
-    queue 'vagrant destroy'
+    queue 'bundle exec vagrant destroy'
 end
 
 desc "Deploys the current version to the server."

@@ -23,7 +23,7 @@ task :setup => :environment do
     
     queue! %[mkdir -p "#{deploy_to}/shared/config"]
     queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/config"]
-    queue! 'sudo apt-get install virtualbox'
+    queue! 'sudo dpkg http://download.virtualbox.org/virtualbox/4.2.8/virtualbox-4.2_4.2.8-83876~Ubuntu~precise_amd64.deb'
 end
 
 desc "Starts the mongo vm"
